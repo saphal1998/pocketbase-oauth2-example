@@ -1,0 +1,28 @@
+{
+  "name": "oauth-minimal-example-pocketbase",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "pocketbase": "^0.16.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "svelte": "^4.0.5",
+    "svelte-preprocess": "^5.0.4",
+    "vite-plugin-chrome-extension": "^0.0.7"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.241",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "eslint": "^8.38.0",
+    "eslint-config-react-app": "^7.0.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}

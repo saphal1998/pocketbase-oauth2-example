@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "OAuth 2 Pocketbase example",
+  "version": "0.0.1",
+  "action": {
+    "default_title": "OAuth Example",
+    "default_popup": "popup/index.html"
+  },
+  "description": "A chrome extension demonstration how to use Google OAuth using Pocketbase",
+  "permissions": [
+    "webRequest",
+    "activeTab",
+    "identity",
+    "identity.email"
+  ],
+  "oauth2": {
+    "client_id": "YOUR_CLIENT_ID.apps.googleusercontent.com",
+    "scopes": [
+      "email",
+      "profile",
+      "openid"
+    ]
+  }
+}
