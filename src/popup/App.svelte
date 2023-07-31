@@ -11,18 +11,16 @@
 
 <main class="extension">
   {#if !pb.authStore.isValid}
-  <h2>You are not logged in, please login to continue using this extension</h2>
-  <button class="login-button" on:click={handleLoginAuth}>Login</button>
-  {:else} 
-  <h2> You are logged in as {pb.authStore.model.id}</h2>
+    <h2>
+      You are not logged in, please login to continue using this extension
+    </h2>
+    <button class="login-button" on:click={handleLoginAuth}>Login</button>
+  {:else}
+    <h2>You are logged in as {pb.authStore.model.id}</h2>
   {/if}
 </main>
 
 <style>
-  img {
-    height: 5rem;
-  }
-
   .extension {
     display: flex;
     flex-direction: column;

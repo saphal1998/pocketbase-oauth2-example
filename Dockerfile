@@ -1,7 +1,7 @@
 # This Dockerfile is for Pocketbase
 FROM alpine:latest
 
-ARG PB_VERSION=0.14.0
+ARG PB_VERSION=0.17.0
 
 RUN apk add --no-cache \
     unzip \ 
